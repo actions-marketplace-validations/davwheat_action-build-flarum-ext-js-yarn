@@ -1,6 +1,10 @@
 # [GitHub Action] Flarum JavaScript Building
 
-You must be in the GitHub Actions beta to be able to use GitHub Actions in your repositories and/or organizations.
+---
+
+**This is a fork of the [official Flarum core action](https://github.com/flarum/action-build).** I personally prefer `yarn` over `npm`, so have modified the core action to suit those preferences.
+
+---
 
 This action automatically compiles & commits yours JavaScript extension files on every commit.
 
