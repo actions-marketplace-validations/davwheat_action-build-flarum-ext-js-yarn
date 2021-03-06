@@ -1,6 +1,9 @@
-name: Flarum JavaScript Build
-description: Automatically compile your extension's JavaScript files
-author: 'Flarum'
+name: Flarum Extension JavaScript Build - Yarn
+description: Automatically compile your extension's JavaScript files using yarn
+author: 'David Wheatley & Flarum'
+branding:
+  color: orange
+  icon: check
 runs:
   using: 'docker'
   image: 'Dockerfile'
