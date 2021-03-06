@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@master
-      - uses: flarum/action-build@master
+      - uses: davwheat/action-build-flarum-ext-js-yarn@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 ```
