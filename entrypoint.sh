@@ -31,12 +31,11 @@ git config user.email 'bot@flarum.org'
 echo -e "$style - installing dependencies $reset"
 
 cd js || exit 1
-npm i -g npm@6.1.0
-npm ci
+yarn install --frozen-lockfile
 
 echo -e "$style - building JavaScript files $reset"
 
-npm run build
+yarn run build
 
 git add dist/* -f
 
